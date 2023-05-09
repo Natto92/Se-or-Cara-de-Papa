@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(178, 137, 216);
+    z-index: -10;
+    position: relative;
+    margin: 100px auto;
+}
+
+.container .face{
+    position: absolute;
+    z-index:1 ;
+    right: 35%;
+    top: 25%;
+}
+
+.container .eyeleft{
+    position: absolute;
+    z-index:2 ;
+    right: 48%;
+    top: 33%;
+}
+
+.container .eyeright{
+    position: absolute;
+    z-index:3 ;
+    right: 40%;
+    top: 33%;
+}
+.container .earleft{
+    position: absolute;
+    z-index:4 ;
+    right: 32%;
+    top: 28%;
+    z-index: -1;
+}
+
+.container .earright{
+    position: absolute;
+    z-index:5 ;
+    right: 58%;
+    top: 28%;
+    z-index: -1;
+   
+}
+
+
+.container .moustache{
+    position: absolute;
+    z-index:8 ;
+    right: 40%;
+    top: 54%;
+   
+}
+
+.container .nose{
+    position: absolute;
+    z-index:9 ;
+    right: 42%;
+    top: 39%;
+    transition: 0.6s linear;
+   
+}
+
+.container:hover .nose{
+
+    transform: translateX(-100px) rotate(89deg);
+}
+
+.container .hat{
+    position: absolute;
+    z-index:10 ;
+    right: 38%;
+    top: 12.5%;
+    transition: 0.6s linear;
+   
+}
+
+.container:hover .hat{
+    top: -10%;
+}
+
+.container .footleft{
+    position: absolute;
+    z-index:6 ;
+    right: 50%;
+    top: 68%;   
+    z-index: -1;
+}
+
+.container .footright{
+    position: absolute;
+    z-index:7 ;
+    right: 35%;
+    top: 68%;
+    z-index: -1;
+}
+
+.contenedor:hover .earleft{
+    transform: translateX(-100px);
+
+}
+
+
